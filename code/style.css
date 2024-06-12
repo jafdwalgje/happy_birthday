@@ -1,0 +1,111 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 10px;
+}
+.container {
+    width: 100%;
+}
+@font-face {
+    font-family: "Lighthaus";
+    src:
+      local("Lighthaus"),
+      url("../fonts/ofont.ru_Lighthaus.ttf")
+  }
+/* GLOBAL */
+/* MAIN */
+.welcome-block .container {
+    display: flex;
+    justify-content: start;
+}
+.congs {
+    padding-top: 9rem;
+    font-size: 4rem;
+    font-family: Lighthaus;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/1bg.jpg);
+    height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.task-text {
+    padding-top: 9rem;
+    font-size: 4rem;
+    font-family: Lighthaus;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/2bg.jpg);
+    height: 100vh;
+    margin-top: -23.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.task {
+    padding-top: 25rem;
+    font-size: 4rem;
+    font-family: Lighthaus;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/1bg.jpg);
+    height: 100vh;
+    margin-top: -23.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.answer {
+    padding-top: 25rem;
+    font-size: 4rem;
+    font-family: Lighthaus;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/2bg.jpg);
+    height: 100vh;
+    margin-top: -23.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.answer form {
+    text-align: start;
+    padding-left: 3.5rem;
+}
+.sss {
+    display: none;
+}
+.afgaga {
+    padding-top: 25rem;
+    font-size: 4rem;
+    font-family: Lighthaus;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/1bg.jpg);
+    height: 100vh;
+    margin-top: -23.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.hhhh {
+    margin-left: 8rem;
+    padding: 2rem;
+    border-radius: 4rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border: .2rem solid white;
+}
+/* MAIN */
